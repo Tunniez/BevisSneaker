@@ -1,41 +1,46 @@
 /* LINK */
 @import url(//db.onlinewebfonts.com/c/5bf04c97279e55318d67c21101cfd898?family=URW+Geometric);
-@font-face {font-family: "URW Geometric"; src: url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.eot"); src: url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.woff") format("woff"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.svg#URW Geometric") format("svg"); }
+
+@font-face {
+    font-family: "URW Geometric";
+    src: url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.eot");
+    src: url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.woff") format("woff"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.svg#URW Geometric") format("svg");
+}
 
 
-*{
+* {
     border: 0;
     padding: 0;
 }
 
-section{
+section {
     height: 100%;
     scroll-snap-type: y mandatory;
 }
 
 
-#bannervideo{
+#bannervideo {
     width: 100%;
 }
 
 
 /* END SCROLL */
 
-ul li{
+ul li {
     list-style: none;
 }
 
 /* ADS */
-.ads{
+.ads {
     background-color: #303030;
     color: whitesmoke;
 }
 
-.ads i{
+.ads i {
     margin-right: 5px;
 }
 
-.ads a{
+.ads a {
     color: whitesmoke;
     font-size: 80%;
     float: right;
@@ -43,11 +48,11 @@ ul li{
     margin-left: 2%;
 }
 
-.ads a:hover{
+.ads a:hover {
     color: #ff5f17;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -72,23 +77,23 @@ header a:hover {
 
 }
 
-.btn-outline-secondary{
+.btn-outline-secondary {
     border-radius: 0;
     outline: none;
 }
 
-.form-control{
+.form-control {
     border-radius: 0;
     width: 50%;
     outline: none;
 
 }
 
-.input-group{
+.input-group {
     width: 70%;
 }
 
-header .navbar{
+header .navbar {
     display: flex;
     justify-self: center;
     align-items: center;
@@ -98,36 +103,36 @@ header .navbar{
     align-content: center;
 }
 
-header .navbar ul li{
+header .navbar ul li {
     float: left;
     padding-left: 15px;
     padding-top: 10px;
 }
 
-header .navbar .line{
+header .navbar .line {
     height: 30px;
     margin-top: 10px;
     border-right: #e3e2e2 2px solid;
 }
 
 
-header .navbar img{
+header .navbar img {
     width: 50%;
     padding-left: 70px;
     margin-left: 20%;
 }
 
-header .navbar .nav-menu{
+header .navbar .nav-menu {
     display: flex;
     justify-content: center;
 }
 
 /* CONTENT HOTNEWS*/
-.hotnews{
+.hotnews {
     background-color: #f5f5f5;
 }
 
-.hotnews marquee{
+.hotnews marquee {
     font-size: 20px;
     padding: 5px;
     font-family: 'URW Geometric';
@@ -137,20 +142,20 @@ header .navbar .nav-menu{
 /* BANNER */
 
 
-.banner .col-xl-12{
+.banner .col-xl-12 {
     padding: 0;
     font-family: 'URW Geometric';
 }
 
-.banner img{
+.banner img {
     width: 100%;
     padding-bottom: 30px;
 }
 
-.content--banner-01 .col-xl-4{
+.content--banner-01 .col-xl-4 {
     z-index: 100;
     margin-top: -30%;
-    
+
 }
 
 .content--banner-01 .col-xl-4 h1 {
@@ -158,28 +163,29 @@ header .navbar .nav-menu{
     padding-left: 20%;
 }
 
-.content--banner-01 .col-xl-4 p{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+.content--banner-01 .col-xl-4 p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-size: 15px;
     padding-left: 20%;
 }
 
-.content--banner-01 .button{
+.content--banner-01 .button {
     padding-left: 20%;
 }
-.content--banner-01 .button i{
+
+.content--banner-01 .button i {
     padding-left: 1rem;
 }
 
-.content--banner-01 button{
+.content--banner-01 button {
     padding: 3%;
     background-color: #303030;
     color: #f5f5f5;
     margin-bottom: 2%;
 }
 
-.content--banner-01 button:hover{
+.content--banner-01 button:hover {
     color: #7c7c7c;
     box-shadow: 5px #7c7c7c;
     transition: 0.5s;
@@ -187,19 +193,20 @@ header .navbar .nav-menu{
 }
 
 /* Recommend */
-.recommend .card{
+.recommend .card {
     /* border-radius: 15%; */
     border: none;
 }
 
-.recommend a{
+.recommend a {
     padding: 1%;
 }
-.recommend img{
+
+.recommend img {
     border-radius: 5%;
 }
 
-.recommend img:hover{
+.recommend img:hover {
     box-shadow: 0 15px 15px 0 #7c7c7c !important;
     transition: 1s;
     transform: translateZ(70%);
@@ -207,7 +214,7 @@ header .navbar .nav-menu{
 }
 
 /* FOOTER */
-footer{
+footer {
     background-color: #4c4c4c;
     width: 100%;
     padding: 50px;
@@ -216,11 +223,11 @@ footer{
     color: #f5f5f5;
 }
 
-footer h4{
+footer h4 {
     font-size: 20px;
 }
 
-footer ul{
+footer ul {
     padding: 0;
     margin-top: 10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -228,27 +235,28 @@ footer ul{
     color: #bbbbbb;
 }
 
-footer li{
+footer li {
     padding-bottom: 2%;
 }
 
-footer a{
+footer a {
     color: #f5f5f5;
 }
 
-footer a:hover{
+footer a:hover {
     color: #ff5f17;
 }
-footer img{
+
+footer img {
     width: 95%;
     padding: 0 30px;
 }
 
-a{
+a {
     color: #303030;
 }
 
-.btn-footer{
+.btn-footer {
     width: 70%;
     padding: 1%;
     margin-top: 30px;
@@ -258,31 +266,31 @@ a{
     background-color: #ff5f17;
 }
 
-.btn-footer:hover{
+.btn-footer:hover {
     color: #ff5f17;
     background-color: #f5f5f5;
 }
 
-footer i{
+footer i {
     font-size: 30px;
     padding: 10px;
     color: #a5a2a2;
 }
 
-footer .dky{
+footer .dky {
     width: 100%;
     margin-top: 10px;
 
 }
 
-footer .dky-input{
+footer .dky-input {
     border-radius: 0;
     height: 40px;
     width: 60%;
     outline: none;
 }
 
-footer .dky-button{
+footer .dky-button {
     border-radius: 0;
     height: 40px;
     width: 30%;
@@ -291,80 +299,96 @@ footer .dky-button{
     text-align: center;
 }
 
-.dky-button:hover{
+.dky-button:hover {
     color: #e3e2e2;
     background-color: #ff5f17;
 }
 
-footer .col-xl-6 img{
+footer .col-xl-6 img {
     width: 50%;
 }
 
-footer .row{
+footer .row {
     align-items: center;
     padding: 0
 }
 
 
 /* ================================================================== */
-.product{
+.product {
     font-family: 'URW Geometric';
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.product .single--item--product{
-    outline: none;
-    padding: 5px;
-    border-radius: 5% ;
+.single--item--product {
+    position: relative;
 }
+
+.product .btnBuy {
+    padding: 5%;
+    background-color: #ff5f17;
+    color: #f6f6f6;
+    width: 50%;
+    position: absolute;
+    display: none;
+    top: 50%;
+
+}
+
+.product .single--item--product:hover .btnBuy {
+    display: block;
+}
+
+
 
 .product .card-title,
 .product .card-text {
     text-align: center;
 }
 
-.product .card{
+.product .card {
     outline: none;
 }
 
-.product .card a{
+.product .card a {
     background-color: #ff5f17;
     color: #f5f5f5;
     padding: 5%;
     visibility: hidden;
 }
 
-.product .container-fluid, .product .col-xl-3{
+.product .container-fluid,
+.product .col-xl-3 {
     padding: 0;
 }
 
 
-.product .card:hover a{
+.product .card:hover a {
     transition: 1.5s;
     visibility: visible;
     margin-left: 25%;
 }
 
-.product ul{
+.product ul {
     padding: 0;
 }
 
-hr{
+hr {
     color: #303030;
 }
 
-.product .filter{
+.product .filter {
     padding-top: 10%;
 }
 
-.single--item--product p{
+.single--item--product p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     padding: 5%;
 }
 
-.single--item--product h5{
+.single--item--product h5 {
     font-weight: 500;
     text-align: center;
     padding: 5%;
@@ -374,21 +398,21 @@ hr{
 
 
 /* 404 */
-.n404{
+.n404 {
     text-align: center;
     font-weight: bold;
-    padding: 10%; 
+    padding: 10%;
     font-family: 'URW Geometric';
     color: #ff5f17;
 }
 
-.n404 h1{
+.n404 h1 {
     font-size: 10rem;
 }
 
 
 /* login/signup */
-.main-form{
+.main-form {
     background-color: #4c4c4c;
     color: #bbbbbb;
     box-shadow: 10px 10px #f6f6f6;
@@ -398,47 +422,70 @@ hr{
     margin: 1%;
 }
 
-.main-form .row{
+.main-form .row {
     align-items: center;
 }
 
-.main-form img{
+.main-form img {
     width: 90%;
 }
 
 /* product detail */
-.main-pic img{
+.main-pic img {
     width: 100%;
     padding: 3%;
 }
 
-.main-pic .container-fluid{
+.main-pic .container-fluid {
     margin-top: -2%;
 }
 
-.col-xl-3{
+.col-xl-3 {
     padding: 0;
     margin: 0;
 }
 
-.other-pic, .other-pic .container-fluid, .other-pic .col-xl-3{
+.other-pic,
+.other-pic .container-fluid,
+.other-pic .col-xl-3 {
     padding: 0;
 }
 
 
-.info-product{
+.info-product {
     font-family: 'URW Geometric';
     color: #4c4c4c;
     padding-left: 5%;
 }
 
-.info-product table, th, td {
+.info-product table,
+th,
+td {
     padding: 1rem;
     border: 1px solid #303030;
 }
 
-.info-product table{
+.info-product table {
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.accordion-button:focus {
+    color: #ff5f17;
+    box-shadow: none;
+}
+
+.accordion-body ul li {
+    font-size: 100%;
+    margin-bottom: 2%;
+    padding: 3%;
+}
+
+.accordion-body a {
+    color: #303030;
+}
+
+.accordion-body li:hover {
+    background-color: #7c7c7c38;
 }
